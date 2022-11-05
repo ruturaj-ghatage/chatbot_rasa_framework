@@ -90,3 +90,8 @@ rules:
       steps:
           - intent: query_about_info_institute
           - action: utter_info_institute
+
+    - rule: Say 'You can register through website/app' anytime the user asks for how to participate
+      steps:
+          - intent: query_about_how_to_participate
+          - action: utter_how_to_participate

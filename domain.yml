@@ -51,6 +51,48 @@ responses:
   utter_how_to_participate:
   - text: "There will be various mini events which will be held in both online and offline mode, to know more about specific events visit the website or download the app."
 
+  utter_event:
+  - text: "Pulzion is the annual technical festival of PICT. It is a 3 day event which is held in the month of March. It is a platform for students to showcase their technical skills and knowledge."
+
+  utter_date:
+  - text: "The event will be held from 13th March to 15th March."
+
+  utter_time:
+  - text: "The event will be held from 8am to 8pm."
+
+  utter_description:
+  - text: "Pulzion is the annual technical festival of PICT. It is a 3 day event which is held in the month of March. It is a platform for students to showcase their technical skills and knowledge."
+
+  utter_speakers:
+  - text: "The speakers for the event are yet to be announced."
+
+  utter_contact:
+  - text: "You can contact us at +91 1234567890 or email us at pulzion@gmail.com"
+
+  utter_app:
+  - text: "You can download the app from playstore."
+
+  utter_registration:
+  - text: "You can register from our website."
+
+  utter_sponsors:
+  - text: "The sponsors for the event are yet to be announced."
+
+  utter_venue:
+  - text: "The event will be held in PICT which is located in Katraj, Pune."
+
+  utter_venue_city:
+  - text: "The event will be held in Pune."
+
+  utter_fee:
+  - text: "There is no tickets fee, The event is absolutely free."
+
+  utter_website:
+  - text: "You can visit our website at www.pulzion.in"
+
+  utter_organizers:
+  - text: "The organizers for the event are PASC and PICT."
+
 
 session_config:
   session_expiration_time: 60
