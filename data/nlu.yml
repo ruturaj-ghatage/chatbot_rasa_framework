@@ -148,7 +148,10 @@ nlu:
     - intent: query_about_event_venue_address
       examples: |
           - what is the venue address?
-          - what is the venue address?
+          - what is address of event?
+          - what is address of conference?
+          - what is venue location?
+          - what is venue location address?
 
     - intent: query_about_event_venue_city
       examples: |
@@ -192,13 +195,6 @@ nlu:
           - where can i get contact information of the organizers?
           - where can i get contact information?
           - where would i be able to get contact information?
-
-    - intent: query_about_event_description
-      examples: |
-          - what is the event about?
-          - what is the event description?
-          - what is the conference about?
-          - what is the conference description?
 
     - intent: query_about_how_to_participate
       examples: |
@@ -247,3 +243,10 @@ nlu:
           - I want more information about the event location.
           - I want details about the institute.
           - Tell me more about the location.
+
+    - intent: query_about_event_registration
+      examples: |
+          - how to register for the event?
+          - how to register for the conference?
+          - how to register for the event?
+          - how to register for the conference?
