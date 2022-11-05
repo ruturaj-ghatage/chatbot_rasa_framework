@@ -31,12 +31,12 @@ rules:
           - intent: query_about_event_description
           - action: utter_description
 
-    - rule: Say 'The speakers are Rasa team' anytime the user asks for speakers
+    - rule: Say 'The speakers arent announced team' anytime the user asks for speakers
       steps:
           - intent: query_about_event_speakers
           - action: utter_speakers
 
-    - rule: Say 'The sponsors are Rasa team' anytime the user asks for sponsors
+    - rule: Say 'The sponsors are PACS team' anytime the user asks for sponsors
       steps:
           - intent: query_about_event_sponsors
           - action: utter_sponsors
@@ -61,12 +61,12 @@ rules:
           - intent: query_about_event_registration
           - action: utter_registration
 
-    - rule: Say 'You can contact us at rasa.com' anytime the user asks for contact
+    - rule: Say 'You can contact us at pulzion.com' anytime the user asks for contact
       steps:
           - intent: query_about_event_contact
           - action: utter_contact
 
-    - rule: Say 'You can visit our website rasa.com' anytime the user asks for website
+    - rule: Say 'You can visit our website pulzion.com' anytime the user asks for website
       steps:
           - intent: query_about_event_website
           - action: utter_website
