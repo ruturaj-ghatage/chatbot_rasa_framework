@@ -36,6 +36,22 @@ responses:
   utter_location:
   - text: "The event will be held in PICT which is located in Katraj, Pune."
 
+  utter_info_institute:
+  - text: "PICT is one of the leading institutes in Engineering in Pune. With amazing placement records and a great coding culture PICT stands in top 200 in NIRF rankings."
+
+  utter_who_can_attend:
+  - text: "The event can be attended by all tech fanatics out there. All are welcome to the event."
+
+  utter_about_ticket_price:
+  - text: "There is no tickets fee, The event is absolutely free."
+
+  utter_how_to_register:
+  - text: "You can register for the event using the website www.pulzion.in or download the pulzion '22 app from the playstore."
+
+  utter_how_to_participate:
+  - text: "There will be various mini events which will be held in both online and offline mode, to know more about specific events visit the website or download the app."
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
