@@ -16,3 +16,73 @@ rules:
   steps:
   - intent: query_about_conf_location
   - action: utter_location
+
+- rule: Say 'The time is 9am to 5pm' anytime the user asks for time
+  steps:
+  - intent: query_about_conf_time
+  - action: utter_time
+
+- rule: Say 'The event is about Rasa' anytime the user asks for description
+  steps:
+  - intent: query_about_event_description
+  - action: utter_description
+
+- rule: Say 'The speakers are Rasa team' anytime the user asks for speakers
+  steps:
+  - intent: query_about_event_speakers
+  - action: utter_speakers
+
+- rule: Say 'The sponsors are Rasa team' anytime the user asks for sponsors
+  steps:
+  - intent: query_about_event_sponsors
+  - action: utter_sponsors
+
+- rule: Say 'The venue is PICT' anytime the user asks for venue
+  steps:
+  - intent: query_about_event_venue
+  - action: utter_venue
+
+- rule: Say 'Venue city is Pune' anytime the user asks for city
+  steps:
+  - intent: query_about_event_venue_city
+  - action: utter_venue_city
+
+- rule: Say 'You can download the app from playstore' anytime the user asks for app
+  steps:
+  - intent: query_about_event_app
+  - action: utter_app
+
+- rule: Say 'You can register from our website' anytime the user asks for registration
+  steps:
+  - intent: query_about_event_registration
+  - action: utter_registration
+
+- rule: Say 'You can contact us at rasa.com' anytime the user asks for contact
+  steps:
+  - intent: query_about_event_contact
+  - action: utter_contact
+
+- rule: Say 'You can visit our website rasa.com' anytime the user asks for website
+  steps:
+  - intent: query_about_event_website
+  - action: utter_website
+
+- rule: Say 'Event organizers are PASC' anytime the user asks for organizers
+  steps:
+  - intent: query_about_event_organizers
+  - action: utter_organizers
+
+- rule: Say 'Event is free' anytime the user asks for fee
+  steps:
+  - intent: query_about_event_fee
+  - action: utter_fee
+
+- rule: Say 'Anyone can attend' anytime the user asks for eligibility
+  steps:
+  - intent: query_about_event_who_can_attend
+  - action: utter_who_can_attend
+
+- rule: Say 'PICT is Engg College' anytime the user asks for college
+  steps:
+  - intent: query_about_info_institute
+  - action: utter_info_institute

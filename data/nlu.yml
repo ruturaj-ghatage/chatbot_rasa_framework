@@ -156,13 +156,21 @@ nlu:
     - what is the venue city?
     - what is the venue address?
 
-  intent: query_about_app_download
+  intent: query_about_event_app
   examples: |
     - how to download the app?
     - is there any app for this event?
     - is there any app for this conference?
     - how to download the app for this event?
     - how to download the app for this conference?
+
+  intent: query_about_event_website
+  examples: |
+    - what is the website?
+    - what is the website for this event?
+    - what is the website for this conference?
+    - what is the website for this event?
+    - what is the website for this conference?
 
   intent: query_about_event_schedule
   examples: |
@@ -177,9 +185,13 @@ nlu:
     - who will be the organizers for the conference?
     - who will be the organizers for the conference?
 
-  intent: query_about_event_organizers_contact
+  intent: query_about_event_contact
   examples: |
     - what is the contact of the organizers?
+    - what is the contact of the organizers?
+    - where can i get contact information of the organizers?
+    - where can i get contact information?
+    - where would i be able to get contact information?
 
   intent: query_about_event_description
   examples: |
@@ -201,7 +213,7 @@ nlu:
     - how to pay for the event?
     - how to pay for the conference?
 
-  intent: query_about_event_ticket_price
+  intent: query_about_event_fee
   examples: |
     - what is the ticket price for the event?
     - what is the ticket price for the conference?
@@ -224,7 +236,7 @@ nlu:
     - What is your institute?
     - what happens in your institute?
     - Give me information about your institute.
-    - Give me details about your institude.
+    - Give me details about your institute.
     - I want more information about the event location.
     - I want details about the institute.
     - Tell me more about the location.
