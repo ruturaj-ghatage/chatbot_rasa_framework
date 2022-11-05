@@ -213,6 +213,13 @@ nlu:
     - how to pay for the event?
     - how to pay for the conference?
 
+  intent: query_about_event_date
+  examples: |
+    - what is the date of the event?
+    - what is the date of the conference?
+    - what is the date of the event?
+    - what is the date of the conference?
+
   intent: query_about_event_fee
   examples: |
     - what is the ticket price for the event?
